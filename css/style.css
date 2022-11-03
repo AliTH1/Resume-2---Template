@@ -1,0 +1,879 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+    height: 1700px;
+    float: left;
+    position: relative;
+}
+
+ul, p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.polygon-1{
+    width: 1250px;
+    height: 150px;
+    position: absolute;
+    left: 0px;
+}
+
+.left{
+    width: 400px;
+    height: 1700px;
+    float: left;
+    position: relative;
+    background-color: #BFBFBF1A;
+}
+
+.portret{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.left-text{
+    width: 300px;
+    height: 165px;
+    float: left;
+    color: #606880;
+    font-size: 18px;
+    position: absolute;
+    top: 280px;
+    left: 35px;
+}
+
+.infos{
+    width: 250px;
+    min-height: 230px;
+    float: left;
+    position: absolute;
+    left: 35px;
+    top: 500px;
+}
+
+.mail-info{
+    width: 250px;
+    height: 60px;
+    float: left;
+}
+
+.mail-icon{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-color: #E2E6EE;
+    border-radius: 20px;
+    position: relative;
+}
+
+.fa-envelope-o{
+    position: absolute;
+    top: 5px;
+    left: 7px;
+}
+
+.mail-text{
+    width: 170px;
+    height: 50px;
+    float: left;
+    position: absolute;
+    right: 30px;
+}
+
+.ul-mail-text{
+    list-style-type: none;
+}
+
+
+
+.website-info{
+    width: 250px;
+    height: 60px;
+    float: left;
+}
+
+.website-icon{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-color: #E2E6EE;
+    border-radius: 20px;
+    position: relative;
+}
+
+.fa-link{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.website-text{
+    width: 170px;
+    height: 50px;
+    float: left;
+    position: absolute;
+    right: 30px;
+}
+
+.website-link{
+    color: #47516B;
+    text-decoration: none;
+}
+
+
+
+.phone-info{
+    width: 250px;
+    height: 60px;
+    float: left;
+}
+
+.phone-icon{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-color: #E2E6EE;
+    border-radius: 20px;
+    position: relative;
+}
+
+.fa-phone{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+.phone-text{
+    width: 170px;
+    height: 50px;
+    float: left;
+    position: absolute;
+    right: 30px;
+}
+
+.ul-phone-text{
+    list-style-type: none;
+}
+
+
+
+.address-info{
+    width: 250px;
+    height: 60px;
+    float: left;
+}
+
+.address-icon{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-color: #E2E6EE;
+    border-radius: 20px;
+    position: relative;
+}
+
+.fa-map-marker{
+    position: absolute;
+    top: 8px;
+    left: 13.5px;
+}
+
+.address-text{
+    width: 170px;
+    height: 50px;
+    float: left;
+    position: absolute;
+    right: 30px;
+}
+
+.ul-address-text{
+    list-style-type: none;
+}
+
+
+
+.socials{
+    width: 200px;
+    min-height: 150px;
+    float: left;
+    position: absolute;
+    left: 35px;
+    top: 800px;
+}
+
+.social-text{
+    width: 200px;
+    height: 30px;
+    float: left;
+}
+
+.socials-content{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.twitter{
+    width: 200px;
+    height: 40px;
+    float: left;
+}
+
+.twitter-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    float: left;
+    background: #00ACEE;
+    position: relative;
+}
+
+.fa-twitter{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    color: white;
+}
+
+.twitter-text{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 55px;
+    list-style-type: none;
+    line-height: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.twitter-link{
+    color: #47516B;
+    text-decoration: none;
+}
+
+
+.linkedin{
+    width: 200px;
+    height: 40px;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+.linkedin-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    float: left;
+    background-color: #0077B5;
+    position: relative;
+}
+
+.fa-linkedin{
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    color: white;
+}
+
+.linkedin-text{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 55px;
+    line-height: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.linkedin-link{
+    color: #47516B;
+    text-decoration: none;
+}
+
+
+.right{
+    width: 850px;
+    height: 1000px;
+    float: left;
+    position: relative;
+    top: 100px;
+}
+
+.right-head-text{
+    width: 300px;
+    height: 100px;
+    float: left;
+    position: absolute;
+    left: 30px;
+}
+
+.right-head-text-1{
+    font-size: 50px;
+    color: #2E2E48;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right-head-text-2{
+    font-size: 30px;
+    color: #2E2E48;
+}
+
+.experience{
+    width: 720px;
+    height: 570px;
+    float: left;
+    position: relative;
+    top: 160px;
+    left: 30px;
+}
+
+.experience-text{
+    width: 160px;
+    height: 55px;
+    float: left;
+}
+
+.experience-span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.line-experience{
+    width: 100px;
+    height: 10px;
+    float: left;
+    position: absolute;
+    top: 45px;
+    background-color: #FFBDA8;
+}
+
+.experience-content-1{
+    width: 100%;
+    height: 200px;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+.data-and-place-1{
+    width: 300px;
+    height: 20px;
+    float: left;
+    position: relative;
+}
+
+.experience-map-icon-1{
+    width: 10px;
+    height: 20px;
+    float: left;
+    position: absolute;
+    left: 150px;
+    top: -7px;
+}
+
+.bordeaux-text{
+    position: absolute;
+    right: 55px;
+}
+
+.company-and-role-1{
+    width: 220px;
+    height: 85px;
+    float: left;
+    position: absolute;
+    top: 25px;
+}
+
+.google-logo{
+    width: 90px;
+    height: 85px;
+    float: left;
+}
+
+.google-img{
+    width: 75px;
+    height: 75px;
+}
+
+.google-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 28px;
+}
+
+.experience-content-text-1{
+    width: 420px;
+    height: 200px;
+    float: left;
+    color: #606880;
+}
+
+
+.experience-content-2{
+    width: 100%;
+    height: 150px;
+    float: left;
+    position: relative;
+    top: 30px;
+}
+
+.data-and-place-2{
+    width: 300px;
+    height: 20px;
+    float: left;
+    position: relative;
+}
+
+.experience-map-icon-2{
+    width: 10px;
+    height: 20px;
+    float: left;
+    position: absolute;
+    left: 150px;
+    top: -7px;
+}
+
+.tours-text{
+    position: absolute;
+    right: 55px;
+}
+
+.company-and-role-2{
+    width: 220px;
+    height: 85px;
+    float: left;
+    position: absolute;
+    top: 25px;
+}
+
+.tesla-logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.tesla-img{
+    width: 70px;
+    height: 70px;
+}
+
+.tesla-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 28px;
+}
+
+.experience-content-text-2{
+    width: 420px;
+    height: 200px;
+    float: left;
+    color: #606880;
+}
+
+
+.experience-content-3{
+    width: 100%;
+    height: 150px;
+    float: left;
+    position: relative;
+    top: 30px;
+}
+
+.data-and-place-3{
+    width: 300px;
+    height: 20px;
+    float: left;
+    position: relative;
+}
+
+.experience-map-icon-3{
+    width: 10px;
+    height: 20px;
+    float: left;
+    position: absolute;
+    left: 150px;
+    top: -7px;
+}
+
+.tours-text{
+    position: absolute;
+    right: 80px;
+}
+
+.company-and-role-3{
+    width: 220px;
+    height: 85px;
+    float: left;
+    position: absolute;
+    top: 25px;
+}
+
+.netflix-logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.netflix-img{
+    width: 70px;
+    height: 70px;
+}
+
+.netflix-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 28px;
+}
+
+.experience-content-text-3{
+    width: 420px;
+    height: 200px;
+    float: left;
+    color: #606880;
+}
+
+.skills{
+    width: 720px;
+    height: 500px;
+    float: left;
+    position: relative;
+    top: 170px;
+    left: 30px;
+}
+
+.skills-text{
+    width: 160px;
+    height: 55px;
+    float: left;
+}
+
+.skills-span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.line-skills{
+    width: 120px;
+    height: 10px;
+    float: left;
+    position: absolute;
+    top: 45px;
+    background-color: #FFBDA8;
+}
+
+.skills-content{
+    width: 720px;
+    height: 435px;
+    float: left;
+    position: relative;
+    top: 30px;
+    /* background-color: red; */
+}
+
+.react-native{
+    width: 100px;
+    height: 155px;
+    float: left;
+    position: absolute;
+    left: 50px;
+}
+
+.react-native-img{
+    width: 100px;
+    height: 90px;
+}
+
+.react-native-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+}
+
+
+
+.redux{
+    width: 100px;
+    height: 145px;
+    float: left;
+    position: absolute;
+    left: 230px;
+}
+
+.redux-img{
+    width: 100px;
+    height: 90px;
+}
+
+.redux-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+
+.react{
+    width: 100px;
+    height: 155px;
+    float: left;
+    position: absolute;
+    left: 400px;
+}
+
+.react-img{
+    width: 100px;
+    height: 90px;
+}
+
+.react-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+
+
+.nodejs{
+    width: 100px;
+    height: 155px;
+    float: left;
+    position: absolute;
+    left: 550px;
+}
+
+.nodejs-img{
+    width: 110px;
+    height: 120px;
+    position: absolute;
+    top: -15px;
+}
+
+.nodejs-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+
+.figma{
+    width: 100px;
+    height: 155px;
+    float: left;
+    position: absolute;
+    top: 200px;
+    left: 140px;
+}
+
+.figma-img{
+    width: 100px;
+    height: 90px;
+}
+
+.figma-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+
+.project-management{
+    width: 100px;
+    height: 155px;
+    float: left;
+    position: absolute;
+    top: 190px;
+    left: 300px;
+}
+
+.project-management-img{
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    left: 40px;
+}
+
+.project-management-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    text-align: center;
+}
+
+.laravel{
+    width: 100px;
+    height: 155px;
+    float: left;
+    position: absolute;
+    top: 190px;
+    left: 520px;
+}
+
+.laravel-img{
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    left: 10px;
+}
+
+.laravel-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+
+
+.education{
+    width: 720px;
+    height: 300px;
+    float: left;
+    position: relative;
+    top: 170px;
+    left: 30px;
+}
+
+.education-text{
+    width: 160px;
+    height: 55px;
+    float: left;
+}
+
+.education-span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.line-education{
+    width: 120px;
+    height: 10px;
+    float: left;
+    position: absolute;
+    top: 45px;
+    background-color: #FFBDA8;
+}
+
+.education-content{
+    width: 100%;
+    height: 280px;
+    float: left;
+    position: relative;
+}
+
+
+
+.education-content-1{
+    width: 100%;
+    height: 130px;
+    float: left;
+    position: relative;
+    top: 30px;
+}
+
+.education-data-and-place-1{
+    width: 300px;
+    height: 20px;
+    float: left;
+    position: relative;
+}
+
+.education-company-and-role-1{
+    width: 260px;
+    height: 85px;
+    float: left;
+    position: absolute;
+    top: 25px;
+}
+
+.stanford-logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.stanford-img{
+    width: 70px;
+    height: 70px;
+}
+
+.stanford-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 28px;
+}
+
+.education-content-text-1{
+    width: 420px;
+    height: 200px;
+    float: left;
+    color: #606880;
+}
+
+
+.education-content-2{
+    width: 100%;
+    height: 120px;
+    float: left;
+    position: relative;
+    top: 30px;
+}
+
+.education-data-and-place-2{
+    width: 300px;
+    height: 20px;
+    float: left;
+    position: relative;
+}
+
+.education-company-and-role-2{
+    width: 260px;
+    height: 85px;
+    float: left;
+    position: absolute;
+    top: 25px;
+}
+
+.stanford-logo-2{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.stanford-img-2{
+    width: 70px;
+    height: 70px;
+    opacity: 0.8;
+}
+
+.stanford-text-2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 28px;
+}
+
+.education-content-text-2{
+    width: 420px;
+    height: 100px;
+    float: left;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    color: #606880;
+}
